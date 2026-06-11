@@ -1,0 +1,27 @@
+# 先忽略所有文件
+*
+
+# 允许 Git 继续扫描子文件夹
+!*/
+
+# 保留Access数据库文件
+!*.DBC
+!*.mdb
+
+# 保留数据手册
+!*.pdf
+!*.PDF
+
+# 保留3D文件
+!*.stp
+!*.step
+!*.STEP
+
+# 保留PCB库文件
+!*.pad
+!*.psm
+!*.dra
+
+
+# 保留 .gitignore 本身
+!.gitignore
