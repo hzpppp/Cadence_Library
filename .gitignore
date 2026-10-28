@@ -25,3 +25,7 @@
 
 # 保留 .gitignore 本身
 !.gitignore
+# Git LFS configuration and helper
+!.gitattributes
+!Track-LargeFiles.ps1
+!README-LFS.md
